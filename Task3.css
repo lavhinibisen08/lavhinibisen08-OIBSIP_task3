@@ -1,0 +1,47 @@
+
+
+body{
+    width:200vh;
+    height:80vh;
+    place-items: center;
+    display:grid;
+    background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+    background-size: cover;
+}
+ h1{
+    color:bisque;
+    margin:1rem auto;
+    max-width: 100rem;
+    border: 1px solid whitesmoke;
+    padding:2rem;
+    padding-left: 30rem;
+    padding-right:30rem;
+    background-color:blue;
+    font-size:2rem;
+
+}
+ input[type=number] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+
+
+body button{
+    border:4px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color:blue;
+    color:azure;
+}
+
+body button:hover{
+    background:royalblue;
+    color: white;
+    
+}

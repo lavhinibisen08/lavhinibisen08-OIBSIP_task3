@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+<title>Temperature Converter Challenge</title>
+<meta lang="eng" charset="utf-8">
+<link rel="Stylesheet" href="Task3.css" type="text/css">
+<script src="Task3.js"></script>
+</head>
+<h1>Temperature Converter</h1>
+
+<body>
+  <center>
+  <div >
+  <label><h2>Degrees:</label></h2>
+  <input type="number" placeholder=" Temperature" name="degree" id="degree">
+</div><br><br>
+<div id="temp">
+  <input type="radio" id="Celsius" name="type" value="Celsius" checked>
+  <label for="Celsius"><b>Celsius</b></label>
+  <input type="radio" id="Farenheit" name="type" value="Farenheit">
+  <label for="Farenheit"><b>Farenheit</b> </label>
+</div>
+
+<br><br><br>
+  <button onclick="calculateTemp()"> Convert</button>
+  <p id="convertedTemp"></p>
+</center>
+  
+  
+
+</body>
+</html>
